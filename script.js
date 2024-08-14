@@ -9,12 +9,12 @@ const perguntas = [
         enunciado: "voce é?",
         alternativas: [
             {
-                texto: "mulher dona de casa!",
+                texto: "mulher !",
                 afirmacao: "mulher"
             },
             {
-                texto: "sou homem sou camioneiro!",
-                afirmacao: "sou mulher sou dona de casa"
+                texto: "sou homem !",
+                afirmacao: "sou homem "
             }
         ]
     },
@@ -32,41 +32,43 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "voce vem de uma familia rica?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "afirmação"
+                texto: "veio de uma familia rica.",
+                afirmacao: "sou rico"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "afirmação"
+                texto: "sou pobre .",
+                afirmacao: "vou ser tranqueira"
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "prefere messi ou cr7?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "afirmação"
+                texto: "messi sou burro .",
+                afirmacao: "prefiro messi sou burro"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "afirmação"
+                texto: "cr7 sou esperto/a.",
+                afirmacao: ",prefiro cr7 sou inteligente"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "voce tem futuro? ",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "afirmação"
+                texto: "não, vou ser pobre .",
+                afirmacao: "nao tenho futuro"
+            
+               
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "afirmação"
+                texto: "vou ser rico.",
+                afirmacao: "vou ter futuro na droga"
             }
         ]
     },
